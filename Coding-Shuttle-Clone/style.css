@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+}
+
+ul,
+li a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  justify-content: space-between;
+  height: 15vh;
+  position: relative;
+}
+
+.company-logo img {
+  width: 55px;
+}
+
+.nav-links {
+  flex-basis: 730px;
+}
+
+.nav-links ul {
+  justify-content: end;
+  gap: 40px;
+}
+
+nav {
+  background-color: #f8f8f8;
+}
+
+.primary-btn {
+  background-color: #ed1359;
+  color: white;
+  font-weight: 700;
+  border-radius: 25px;
+  padding: 12px 24px;
+}
+
+.fa-cart-shopping,
+.fa-bars {
+  color: black;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+/* header section 1 */
+span {
+  font-weight: bolder;
+  color: #ed1359;
+}
+
+.header-section {
+  height: 85vh;
+  width: 100vw;
+}
+
+header {
+  padding-inline: 50px 20px;
+  margin-bottom: 8vh;
+}
+
+.header-left h1 {
+  font-size: 3rem;
+  max-width: 55vw;
+}
+
+.header-right img {
+  width: 100%;
+}
+
+.header-section {
+  gap: 50px;
+}
+
+.sub-text {
+  font-size: 1.4rem;
+  margin-top: 10vh;
+}
+
+hr {
+  width: 5vw;
+  border: 1px solid black;
+  margin-top: 2vw;
+}
+
+/* header section 1 */
+.header-left h2 {
+  font-size: 4rem;
+  max-width: 50vw;
+}
+
+.sub-text2 {
+  font-size: 2rem;
+  margin-top: 5vh;
+  width: 50vw;
+}
+
+.my-1 {
+  margin-left: 5vw;
+}
+
+/* companies-section */
+.companies-nav-links {
+  justify-content: space-between;
+}
+
+.companies-section h3 {
+  font-size: 2rem;
+  margin-block: 10vh;
+}
+
+.companies-links img {
+  width: 8rem;
+}
+
+.companies-links,
+.nav-links {
+  justify-content: space-between;
+  width: 75vw;
+}
+
+.header2 {
+  height: 100vh;
+}
+
+.company-logo-many {
+  text-align: end;
+  margin-block: 5vh;
+  font-size: 1.3rem;
+  width: 80vw;
+}
+
+/* features-section */
+.features-section {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 50px 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.features-section .heading {
+  text-align: center;
+  font-size: 2.7rem;
+  margin-block: 4vh;
+}
+
+.features-section .heading span {
+  text-decoration: underline;
+  color: white;
+}
+
+.hero-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+.outer-box {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.inner-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.div-in {
+  display: flex;
+  gap: 15px;
+}
+
+i {
+  color: white;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.div-a,
+.div-b {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.div-a {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-right: 2vw;
+}
+
+/* Course section  */
+.course-section {
+  width: 100%;
+}
+
+.course-section .title {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.course-section .heading {
+  font-size: 3rem;
+}
+
+.course-section .sub-heading {
+  margin-block: 5vh;
+  font-size: 1.2rem;
+}
+
+.box-1,
+.box-2 {
+  width: 50%;
+  padding: 30px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+  margin-inline: 2vw;
+  margin-bottom: 15vh;
+}
+
+.course-compares-box ul li {
+  margin-block: 3vh;
+  font-size: 1.2rem;
+}
+
+.box-1,
+.pink {
+  background-color: #ed1359;
+  color: white;
+}
+
+/* instructor-section  */
+.instructor-section {
+  width: 100%;
+  background-color: #111111;
+  color: whitesmoke;
+}
+
+.instructor-image,
+img {
+  height: 100%;
+  width: 40vw;
+}
+
+.instructor-info {
+  padding: 40px;
+  line-height: 2;
+}
+
+.instructor-info .heading {
+  font-size: 3rem;
+}
+
+.instructor-section ul li {
+  margin-block: 3vh;
+  font-size: 1rem;
+}
+
+/* testimonials-section  */
+.testimonials-section {
+  width: 100%;
+  background-color: #eeeff0;
+}
+
+.testimonials-section .title {
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonials-section .title .heading {
+  font-size: 3rem;
+  margin-bottom: 5vh;
+}
+
+.testimonials-section .heading {
+  font-size: 1.4rem;
+  margin-bottom: 5vh;
+}
+
+.testimonials-section .sub-heading {
+  font-size: 1.2rem;
+  margin-bottom: 5vh;
+}
+
+.testimonials-boxes img {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.testimonials-boxes .description {
+  line-height: 2;
+  padding-inline: 20px;
+}
+
+.testimonials-boxes .name {
+  margin-top: 3vh;
+}
+
+.testo-box-1,
+.testo-box-2,
+.testo-box-3 {
+  text-align: center;
+  width: 30vw;
+  margin-bottom: 10vh;
+}
+
+.testimonials-boxes {
+  justify-content: center;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 10%;
+  margin-bottom: 4vh;
+}
+
+.second-btn {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border-radius: 15px;
+  padding: 12px 24px;
+  margin-bottom: 4vh;
+}
+
+.footer-logo {
+  flex-direction: column;
+  margin: auto;
+}
+
+footer i,
+a {
+  color: black;
+}
+
+footer ul li {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa-circle {
+  font-size: 0.5em;
+}
+
+.last-links a:hover {
+  text-decoration: underline;
+}
+
+footer .fa-brands {
+  border: 0.5px solid;
+  padding: 4px;
+}
