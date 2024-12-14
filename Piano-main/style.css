@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 600px;
+  aspect-ratio: 16/9;
+  padding: 15px;
+}
+
+.piano-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+}
+
+.piano-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+.volume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volume-container span {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.volume-container input {
+  cursor: pointer;
+}
+
+.keys-container {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.keys-white {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px 0;
+  height: 100%;
+  border: 1px solid white;
+  flex-grow: 1;
+  background-color: white;
+  color: black;
+  margin: 0 1px;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 -5px 0px 0px rgb(97, 93, 93) inset;
+  text-transform: uppercase;
+}
+
+.keys-white:active {
+  box-shadow: none;
+  background: linear-gradient(to bottom, white, rgb(176, 164, 164));
+}
+
+.keys-black {
+  position: absolute;
+  background-color: black;
+  width: 30px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 15px;
+  border-radius: 0 0 7px 7px;
+  box-shadow: 0px -5px 0 0 rgb(96, 95, 95) inset;
+  text-transform: uppercase;
+}
+
+.keys-black:active {
+  box-shadow: none;
+  background: linear-gradient(to bottom, black, rgb(45, 45, 45));
+}
+
+.active-white {
+  box-shadow: none;
+  background: linear-gradient(to bottom, white, rgb(176, 164, 164));
+}
+
+.active-black {
+  box-shadow: none;
+  background: linear-gradient(to bottom, black, rgb(45, 45, 45));
+}
+
+#w {
+  left: 7.5%;
+}
+
+#e {
+  left: 17.5%;
+}
+
+#t {
+  left: 37.5%;
+}
+
+#y {
+  left: 48%;
+}
+
+#u {
+  right: 36%;
+}
+
+#o {
+  right: 16%;
+}
+
+#p {
+  right: 6%;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    rotate: 90deg;
+    flex-shrink: 0;
+    width: 450px;
+  }
+
+  #w {
+    left: 7.5%;
+  }
+
+  #e {
+    left: 16.5%;
+  }
+
+  #t {
+    left: 36.5%;
+  }
+
+  #y {
+    left: 47%;
+  }
+
+  #u {
+    right: 34%;
+  }
+
+  #o {
+    right: 14.5%;
+  }
+
+  #p {
+    right: 5%;
+  }
+}
