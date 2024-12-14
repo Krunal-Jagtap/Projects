@@ -1,0 +1,158 @@
+@media screen and (max-width: 1280px) {
+  .one {
+    max-width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .one {
+    flex-wrap: wrap;
+  }
+
+  .one .heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .one .desc {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .one>div {
+    padding: 3rem 2rem;
+  }
+
+  .two,
+  .four {
+    flex-direction: column-reverse;
+  }
+
+  .main {
+    height: auto;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 2rem;
+  }
+
+  .hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 1.125rem;
+  }
+
+  .email {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .email input {
+    width: 80vw;
+    margin-bottom: 1rem;
+  }
+
+  .btn-red {
+    font-size: 1.2rem;
+  }
+
+  .one .desc {
+    font-size: 1.1rem;
+  }
+
+  .one>div {
+    padding: 1rem 1rem;
+  }
+
+  .faq h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .faq-box {
+    max-width: 90vw;
+  }
+
+  .hero>div h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  nav .netflix-logo {
+    width: 5.5625rem;
+  }
+
+  nav {
+    max-width: 95vw;
+  }
+
+  .btn-transparent>img {
+    display: none;
+  }
+
+  .btn {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .hero> :nth-child(1) {
+    font-size: 1.7rem;
+  }
+
+  .sec-one-img img {
+    width: 370px;
+  }
+
+  .sec-one-img video {
+    width: 255px;
+  }
+
+  .sec-one-img img {
+    width: 280px;
+  }
+
+  .sec-one-img video {
+    width: 200px;
+  }
+
+  .sec-one-img video {
+    position: absolute;
+    top: 55px;
+    left: 53px;
+    width: 210px;
+    overflow: hidden;
+  }
+
+  .faq-box span{
+    font-size: 1rem;
+  }
+  .answer p{
+    font-size: 1.125rem;
+  }
+
+  .answer{
+    width: 90vw;
+  }
+  
+}
