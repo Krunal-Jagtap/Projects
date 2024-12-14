@@ -4,7 +4,7 @@ Create Practice Projects Using :
 
 - HTML
 - CSS
-- JavaScript.
+- JavaScript
 
 - Bootstrap
-- Tailwind CSS.
+- Tailwind CSS
