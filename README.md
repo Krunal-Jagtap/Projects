@@ -8,3 +8,4 @@ Create Practice Projects Using :
 
 - Bootstrap
 - Tailwind CSS
+- ICONS ( Font Awesome )
