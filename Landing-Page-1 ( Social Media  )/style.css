@@ -82,6 +82,10 @@ a {
     color: #1c9aee;
 }
 
+.fa-arrow-left-long {
+    padding-right: 1.2rem;
+}
+
 .center {
     position: absolute;
     top: 50%;
@@ -107,4 +111,20 @@ a {
 .center a {
     border-bottom: 2px solid black;
     padding-bottom: 0.5rem;
+}
+
+/* Responsive */
+
+@media (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+
+    main .left {
+        width: 100%;
+    }
+
+    main .right {
+        width: 100%;
+    }
 }
