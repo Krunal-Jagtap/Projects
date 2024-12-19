@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* overflow-x: hidden; */
 }
 
 body,
@@ -13,20 +14,22 @@ html {
 
 main {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+
+    min-height: 100vh;
 }
 
 /* TOP START */
 .top {
     width: 100%;
-    height: 60%;
+    min-height: 60vh;
     background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNncxZXN4dDNoOTQzMGFnaHR2MzFta3B5MGtpeGpqdnU3bDRram1jciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WoD6JZnwap6s8/giphy.webp);
 
 }
 
 nav {
     width: 90%;
-    height: 20%;
+    min-height: 20vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +39,7 @@ nav {
 .nav-logo .nav-menu,
 a {
     color: black;
-    background-color: rgba(255, 255, 255, 0.822);
+    background-color: rgba(255, 255, 255, 0.635);
     padding: 10px 14px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -51,7 +54,7 @@ a {
 
 .hacker-types {
     width: 90%;
-    height: 80%;
+    /* height: 80%; */
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -124,13 +127,14 @@ a {
 /* BOTTOM START */
 .bottom {
     width: 100%;
-    height: 40%;
+    min-height: 40vh;
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .b1 {
     width: 25%;
-    height: 100%;
+    height: inherit;
     background-color: #191919;
     padding: 20px;
     color: green;
@@ -142,7 +146,6 @@ a {
 
 .b2 {
     width: 25%;
-    height: 100%;
     background-image: url(https://i.pinimg.com/originals/7c/74/9f/7c749f29ccc96a65154d6bc80091d7b1.jpg);
     background-position: center;
     background-size: cover;
@@ -150,14 +153,13 @@ a {
 
 .b3 {
     width: 25%;
-    height: 100%;
+    height: inherit;
 
 }
 
 .b3-top {
     width: 100%;
-    height: 50%;
-
+    min-height: 20vh;
     background-image: url(https://w0.peakpx.com/wallpaper/468/927/HD-wallpaper-parrot-os-parrot-security.jpg);
     background-position: center;
     background-size: cover;
@@ -165,7 +167,7 @@ a {
 
 .b3-bottom {
     width: 100%;
-    height: 50%;
+    min-height: 20vh;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b754e4e-8420-43ae-9c58-e724ec9c5765/d7gbj16-88686a5e-6352-47f8-a8cf-be8eac18fe43.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzliNzU0ZTRlLTg0MjAtNDNhZS05YzU4LWU3MjRlYzljNTc2NVwvZDdnYmoxNi04ODY4NmE1ZS02MzUyLTQ3ZjgtYThjZi1iZThlYWMxOGZlNDMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kCX9SjOSRaj86PgGPnN_5M_P-ZS5aGL7b_1bpfHx6rA);
     background-position: center;
     background-size: cover;
@@ -173,7 +175,7 @@ a {
 
 .b4 {
     width: 25%;
-    height: 100%;
+    height: inherit;
     background-image: url(https://news.itsfoss.com/content/images/2024/03/Numbat_Wallpaper_c-1.jpg);
     background-position: center;
     background-size: cover;
