@@ -120,3 +120,63 @@ a {
 
 /* TEXT GLOW END */
 /* TOP END */
+
+/* BOTTOM START */
+.bottom {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.b1 {
+    width: 25%;
+    height: 100%;
+    background-color: #191919;
+    padding: 20px;
+    color: green;
+}
+
+.b1 p {
+    margin-block: 1rem;
+}
+
+.b2 {
+    width: 25%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/originals/7c/74/9f/7c749f29ccc96a65154d6bc80091d7b1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.b3 {
+    width: 25%;
+    height: 100%;
+
+}
+
+.b3-top {
+    width: 100%;
+    height: 50%;
+
+    background-image: url(https://w0.peakpx.com/wallpaper/468/927/HD-wallpaper-parrot-os-parrot-security.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.b3-bottom {
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b754e4e-8420-43ae-9c58-e724ec9c5765/d7gbj16-88686a5e-6352-47f8-a8cf-be8eac18fe43.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzliNzU0ZTRlLTg0MjAtNDNhZS05YzU4LWU3MjRlYzljNTc2NVwvZDdnYmoxNi04ODY4NmE1ZS02MzUyLTQ3ZjgtYThjZi1iZThlYWMxOGZlNDMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kCX9SjOSRaj86PgGPnN_5M_P-ZS5aGL7b_1bpfHx6rA);
+    background-position: center;
+    background-size: cover;
+}
+
+.b4 {
+    width: 25%;
+    height: 100%;
+    background-image: url(https://news.itsfoss.com/content/images/2024/03/Numbat_Wallpaper_c-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* BOTTOM END */
