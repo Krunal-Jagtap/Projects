@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 id="title">Create an account 📂</h1>
+        <p id="description"><a href="">Already have a account?</a></p>
+      </div>
+
+      <div class="main">
+        <form action="" id="survey-form">
+          <label for="name" id="name-label">
+            <p class="marginBottom">Name :</p>
+            <input
+              type="text"
+              id="name"
+              placeholder="Quincy Larson"
+              class="block"
+              required
+            />
+          </label>
+
+          <label for="email" id="email-label">
+            <p class="marginBottom">Mail-ID :</p>
+            <input
+              type="email"
+              id="email"
+              placeholder="Freecodecamp@gmail.com"
+              class="block"
+              required
+            />
+          </label>
+
+          <label for="number" id="number-label">
+            <p class="marginBottom">Age :</p>
+            <input
+              type="number"
+              id="number"
+              placeholder="25"
+              min="1"
+              max="110"
+              class="block"
+              required
+            />
+          </label>
+
+          <label for="dropdown">
+            <p class="question">Which option is best for you ?</p>
+            <select name="dropdown" id="dropdown">
+              <option>Select Account type</option>
+              <option value="personal">personal</option>
+              <option value="business">Business</option>
+              <option value="freecodecamp">Freecodecamp</option>
+            </select>
+          </label>
+
+          <label>
+            <p class="question">How you know about our service ?</p>
+
+            <label for="talk">
+              <input
+                type="radio"
+                name="radio"
+                id="talk"
+                value="Word of Mouth"
+                checked
+              />
+              Word of Mouth
+            </label>
+
+            <label for="socialMedia">
+              <input
+                type="radio"
+                name="radio"
+                id="socialMedia"
+                value="Social Media"
+              />
+              Social Media
+            </label>
+
+            <label for="events">
+              <input type="radio" name="radio" id="events" value="Events" />
+              Events
+            </label>
+          </label>
+
+          <label>
+            <p class="question">What you want to learn</p>
+
+            <label for="webDev">
+              <input
+                type="checkbox"
+                name="webDev"
+                id="webDev"
+                value="Web Development"
+              />
+              Web Development
+            </label>
+
+            <label for="appDev">
+              <input
+                type="checkbox"
+                name="appDev"
+                id="appDev"
+                value="Mobile Application Development"
+              />
+              Mobile Application Development
+            </label>
+
+            <label for="ai">
+              <input
+                type="checkbox"
+                name="ai"
+                id="ai"
+                value="Artificial intelligence ( Ai )"
+              />
+              Artificial intelligence ( AI )
+            </label>
+
+            <label for="all">
+              <input
+                type="checkbox"
+                name="all"
+                id="all"
+                value="Other Courses"
+              />
+              Other Courses
+            </label>
+          </label>
+
+          <label>
+            <p class="question">Describe yourself :</p>
+            <textarea
+              name="aboutUs"
+              id="aboutUs"
+              placeholder="Hello I am (YourName), Want to learn (Topic), from (Coding / Non-Coding Background / Degree) "
+            ></textarea>
+          </label>
+
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
